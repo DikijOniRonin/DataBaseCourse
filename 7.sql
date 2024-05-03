@@ -3,5 +3,6 @@
 SELECT "BusinessEntityID",
        "LastReceiptCost",
        MAX("LastReceiptCost") AS "MaxLastReceiptCost",
-       SUM("LastReceiptCost") AS "TotalLastReceiptCost" FROM "Purchasing"."ProductVendor"
-                                                        GROUP BY GROUPING SETS ("LastReceiptCost", "BusinessEntityID")
+       SUM("LastReceiptCost") AS "TotalLastReceiptCost",
+       GROUPING("LastReceiptCost") AS "LastReceiptCost GROUPING" FROM "Purchasing"."ProductVendor"
+       GROUP BY GROUPING SETS (ROLLUP ("LastReceiptCost", "BusinessEntityID"))
