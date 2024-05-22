@@ -1,3 +1,3 @@
 -- Task 11
 -- Написать скрипт на изменение названия столбца
-alter table "role" rename column "column" to "tmpColumn"
+ALTER TABLE "role" RENAME COLUMN  "column" TO "tmpColumn"

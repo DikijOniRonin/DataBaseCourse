@@ -1,10 +1,10 @@
 -- Task 2
 -- Написать скрипт на создание таблицы authors
-create table "tariffs" (
-    id integer,
-    name varchar(255),
-    description varchar(255),
-    services_id integer,
-    device_id integer,
-    price numeric
+CREATE TABLE "tariffs" (
+    id INTEGER,
+    name VARCHAR(255),
+    description VARCHAR(255),
+    services_id INTEGER,
+    device_id INTEGER,
+    price NUMERIC
 )

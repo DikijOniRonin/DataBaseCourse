@@ -1,4 +1,4 @@
 -- Task 3
 -- Создать файлы со скриптами для изменений таблиц.
-alter table "authors" alter column "first_name" set not null;
-alter table "authors" alter column "second_name" set not null;
+ALTER TABLE "authors" ALTER COLUMN "first_name" SET NOT NULL;
+ALTER TABLE "authors" ALTER COLUMN "second_name" SET NOT NULL;

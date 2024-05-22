@@ -1,3 +1,3 @@
 -- Task 12
 -- Написать скрипт на изменение типа данных нового столбца
-alter table "role" alter column "tmpColumn" type varchar(10);
+ALTER TABLE "role" ALTER COLUMN "tmpColumn" TYPE VARCHAR(10);

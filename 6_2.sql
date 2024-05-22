@@ -1,3 +1,3 @@
 -- Task 6
 -- Написать скрипты на добавление внешнего ключа.
-alter table "author_books" add constraint "FK_ab_books" foreign key ("book_id") references books("id");
+ALTER TABLE "author_books" ADD CONSTRAINT "FK_ab_books" FOREIGN KEY ("book_id") REFERENCES books("id");

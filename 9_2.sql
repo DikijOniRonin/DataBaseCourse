@@ -1,3 +1,3 @@
 -- Task 9
 -- Написать скрипты на установку по умолчанию для тех полей, где это необходимо
-alter table "authors" alter column "id" set default 0;
+ALTER TABLE "authors" ALTER COLUMN "id" SET DEFAULT 0;
