@@ -1,3 +1,3 @@
 -- Task 5
 -- Написать скрипты на добавление первичных ключей.
-alter table "books" add constraint "PK_books" primary key ("id");
+ALTER TABLE "books" ADD CONSTRAINT "PK_books" PRIMARY KEY ("id");
